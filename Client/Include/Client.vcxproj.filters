@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{1d15c077-e92b-4745-a1bb-28c686c8bf97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI">
+      <UniqueIdentifier>{2c329504-b509-4cd3-9c28-9acdb3fad354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\00. Panel">
+      <UniqueIdentifier>{ade4fa06-0596-47f1-a8dd-a436465050b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\00. Panel\00. UIPlayerPanel">
+      <UniqueIdentifier>{05d377a0-ce15-4f4b-a46c-092e9d3e8305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI">
+      <UniqueIdentifier>{24bc796c-e51d-498d-ac46-27d30f3b5e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\00. UIHeartBar">
+      <UniqueIdentifier>{3b20149e-72ba-4412-85bc-072dbd1e6f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\01. UICircle">
+      <UniqueIdentifier>{4433a338-65cc-4fb2-beb6-ebea09f112a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\02. UIMp">
+      <UniqueIdentifier>{917c168c-0eae-404b-ae40-3ea31e9a924a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. ImGui_Editor">
+      <UniqueIdentifier>{ae297ee4-6c1d-49d1-9257-6fa1219b5fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. ImGui_Editor\00. MainEditor">
+      <UniqueIdentifier>{71c23e36-4c26-44b1-a9af-31a21ded4f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. ImGui_Editor\01. EditorScript">
+      <UniqueIdentifier>{ed2d34f5-a5bc-478c-8152-8ce28467148a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. ImGui_Editor\02. EditorMap">
+      <UniqueIdentifier>{b91c336f-3e56-430e-8e19-7119b696ba9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Utility">
+      <UniqueIdentifier>{6c679534-91b2-4e50-a8e7-3c3c107db823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component">
+      <UniqueIdentifier>{9095604f-165d-433a-a8a8-f4b8f34e6c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{3f93eee2-8a00-49f0-b535-bb50e2584051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\00. Logo">
+      <UniqueIdentifier>{a66a8110-ef7c-4e32-a8ca-7b6a1c7b60d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\00. Logo\Loading">
+      <UniqueIdentifier>{9a642b08-e705-4aea-b661-ffd283950929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\01. Stage">
+      <UniqueIdentifier>{982909c2-5b2d-4da7-b63f-cebeb47f8fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Editor">
+      <UniqueIdentifier>{f7c8f6a0-1234-4b0a-9d50-b8a900aabbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{610f594c-7bf8-47b8-a70b-40e3d1e32fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Player">
+      <UniqueIdentifier>{c6da518a-d00a-4925-a45b-15b8ebecceb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\02. Monster">
+      <UniqueIdentifier>{6f01c3c0-bd94-4864-a1cb-3dc64219e5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\03. Item">
+      <UniqueIdentifier>{07fe71d1-18f6-439f-9326-1c275bbac5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. Camera">
+      <UniqueIdentifier>{88744360-a492-4ab2-91a8-d0d1222dea90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. Camera\00. Main Camera">
+      <UniqueIdentifier>{398fce45-a108-419d-a30d-e54b730f2c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\03. BackGround">
+      <UniqueIdentifier>{3bd3b899-a893-4ae5-b3f5-5248eddfadd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss">
+      <UniqueIdentifier>{979b02f0-f254-474f-a682-57df5e0a4ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\01. Boss1">
+      <UniqueIdentifier>{194c3abf-b1d9-4b89-81c1-dac24568f8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\02. Boss2">
+      <UniqueIdentifier>{57866705-26b9-4ce7-9286-c9966a40a2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\09. MapObject">
+      <UniqueIdentifier>{60f280a0-81b0-4b2f-8395-7dee795b2c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{58c808c6-fb36-4533-b7c9-5fe4324476c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\00. Inventory">
+      <UniqueIdentifier>{42fc51e2-7aa1-4069-af85-516f4b17ee0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\01. Weapon">
+      <UniqueIdentifier>{0ea6be3b-e306-4e3b-a944-ff7f76a55091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\02. Terrain">
+      <UniqueIdentifier>{a82a3041-8adf-4ea9-b83c-573792a7e93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\01. Boss1\01.State">
+      <UniqueIdentifier>{632c0230-c490-492f-96a9-7c7a3903e946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\04. UITabMenu">
+      <UniqueIdentifier>{f5ba0def-b59a-4d45-9d5e-3212b4671db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\04. Wall">
+      <UniqueIdentifier>{b0c9067d-def9-4e61-954d-f361723e82cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Base">
+      <UniqueIdentifier>{4574c831-331d-4517-b972-c4e997802ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\05. UITarot">
+      <UniqueIdentifier>{9199ebfa-8568-467b-b919-ec9ad9ecb39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\05. Projectile">
+      <UniqueIdentifier>{35472784-9a23-45e2-9786-3f248927cb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\06. UIItemGet">
+      <UniqueIdentifier>{724d35f9-bc60-44bd-8d5a-22d341eb1b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\03. Player Control">
+      <UniqueIdentifier>{f2106dd3-bd45-46c3-8297-8a8688247354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\03. Player Control\00. Controller">
+      <UniqueIdentifier>{e4558995-8de9-408a-9c16-0e1a35d1d07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\03. Player Control\01. Input">
+      <UniqueIdentifier>{cff18376-e62f-46d6-a00f-7cb48f7f951d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\03. Player Control\02. Movement">
+      <UniqueIdentifier>{c335eac9-1f8a-4cad-9c20-9760b6b18d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\03. Player Control\03. Combat">
+      <UniqueIdentifier>{47ab0db8-6150-437b-b3f7-2f492e5e5f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\06. Camera Control">
+      <UniqueIdentifier>{64e9c684-36fa-40e3-b44f-ef179ec988f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\06. Camera Control\00. Controller">
+      <UniqueIdentifier>{d625002d-799b-4ccf-8e52-87a8e2b58d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\06. Camera Control\01. Movement">
+      <UniqueIdentifier>{97b2548b-ada6-4e00-92f4-21cf83c9f83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\02. Boss2\00. Boss">
+      <UniqueIdentifier>{06466a2b-be8a-415f-8b9c-c367715508d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\02. Boss2\01. Eyeball">
+      <UniqueIdentifier>{f3c057e0-c8ae-47f1-90b7-6ba55bf76cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\02. Boss2\02. Slave">
+      <UniqueIdentifier>{f0761f14-29e5-4beb-a999-fbcd51de41e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\06. SkillEquip">
+      <UniqueIdentifier>{12547d9a-7e03-42d3-9f2c-46e9b362b9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\02. Boss2\03. State">
+      <UniqueIdentifier>{d74a9f17-2586-44d3-a875-b196eaed53a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\02. Boss2\03. State\00. Boss">
+      <UniqueIdentifier>{5d8eeee8-9250-4ebb-bdbb-345dc552b8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball">
+      <UniqueIdentifier>{f0f836ab-b4c5-4a9c-b0c6-b534b5f77249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\06. Controller">
+      <UniqueIdentifier>{8902134d-20bd-40d8-a9c0-6a01e23a37dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\07. Effect">
+      <UniqueIdentifier>{0a2588d6-9b6a-44ba-9c7f-e2fd96563550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\07. Effect\00.Base">
+      <UniqueIdentifier>{8a0d49d8-10a4-4675-9c64-616209693762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\10. Fireball">
+      <UniqueIdentifier>{55718334-06ee-43b9-9d37-001e0d9b66dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\07. State">
+      <UniqueIdentifier>{e34a7dc5-e0ec-4ffb-8b09-7b4b921f27cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\03. MainMenu">
+      <UniqueIdentifier>{d480312a-efaf-4078-93cf-c7487930aaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. Particle">
+      <UniqueIdentifier>{66b66737-d2d9-4490-ba41-336b1cbd241e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\07. Trigger">
+      <UniqueIdentifier>{92dd4e5b-96b3-4251-ad22-3e104b9d673a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\02. Boss2\04. AttackObject">
+      <UniqueIdentifier>{284452da-69b9-4b9f-9bd4-9b5e3f98e399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\07. UI_MonsterHp">
+      <UniqueIdentifier>{64afee0e-3924-4b66-83ff-7eaad8c29212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Construction">
+      <UniqueIdentifier>{333e7f9f-7c14-4b8c-92ac-75d6310fa615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Construction\00. Manager">
+      <UniqueIdentifier>{98e0a1db-7574-4e94-a5a2-e98174919f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Construction\01. Placer">
+      <UniqueIdentifier>{96197f47-b222-4840-94b1-dbb271990129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\09. UIWeaponExplain">
+      <UniqueIdentifier>{92217d20-ec9e-4b20-9d7b-2b9225e199fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\08. UICharging">
+      <UniqueIdentifier>{e12d587e-6cb4-4929-857d-7de7606a343a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\99. Fade">
+      <UniqueIdentifier>{7ed145a4-f09b-474f-b0ca-37315f6894df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Recipe">
+      <UniqueIdentifier>{9ea3124b-4847-48df-a85d-b1e360ac1fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\10. UIBuildMenu">
+      <UniqueIdentifier>{98f70334-9b9c-4272-a009-7d7d2c2b8f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\08. Building">
+      <UniqueIdentifier>{d4a892b8-5b80-4d48-8a32-2cdc3e6bce19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\08. Building\00. Workbench">
+      <UniqueIdentifier>{5b22c16a-a27a-4e8b-bfd7-233dc3ad3553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\08. Building\02. Temple">
+      <UniqueIdentifier>{372bb441-596a-4fbe-88e5-cede48434732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\08. Building\03. Kitchen">
+      <UniqueIdentifier>{ce09c24c-b176-4080-878a-2f9c52c4103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\08. Building\01. Construct Circle">
+      <UniqueIdentifier>{c7255dbc-2339-461a-99df-c0f4ace0edcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Component\08. Construction">
+      <UniqueIdentifier>{c606b936-f005-49ee-8e66-26353c941753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Dialogue">
+      <UniqueIdentifier>{2b20be73-2c6c-40c0-85a5-c40c2ab45975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="93. Crafting">
+      <UniqueIdentifier>{df30e963-03c3-4d96-82cb-0e75b4ac8abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="92. Cooking">
+      <UniqueIdentifier>{d5fe05d1-08dc-4e3e-95f4-d2711fb78852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\11. UICooking">
+      <UniqueIdentifier>{c24b5657-eba6-47a1-880c-3050ccc06163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Utility\00. Helper">
+      <UniqueIdentifier>{f7c56a9e-51ea-4779-bc67-c18f14269457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Utility\01. Interface">
+      <UniqueIdentifier>{8ecb93b1-85b6-49f0-b5d7-31b82825bf5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\09. MapObject\01. Editor">
+      <UniqueIdentifier>{b8a6c8b2-6905-4bda-97eb-471703f1cc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\09. MapObject\02. Crafting">
+      <UniqueIdentifier>{d314f0bf-f1b8-460d-96f3-adee58dfec4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC">
+      <UniqueIdentifier>{d9791a97-6140-4719-bcd0-d54f10a0e47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\98. Components">
+      <UniqueIdentifier>{060b6474-9b16-4e06-be04-aace22e6dc7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\98. Components\00. Interaction Checker">
+      <UniqueIdentifier>{a6b944ca-5f79-4577-b4a5-dfdd125f2f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\98. Components\01. Controller">
+      <UniqueIdentifier>{1c5ddf7a-5624-4052-86ef-7f74ee98af2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM">
+      <UniqueIdentifier>{2298d335-5a5e-4d9d-9291-8e17a7891fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\00. State Machine">
+      <UniqueIdentifier>{f112c0c8-f96d-4006-b15f-400421694c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State">
+      <UniqueIdentifier>{e8ee7db6-b53e-499a-9f00-92f32320e55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\00. Follower Cow">
+      <UniqueIdentifier>{dfad4f31-d030-4911-bd92-4c4463837d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Item">
+      <UniqueIdentifier>{32cd9222-0684-4801-b832-d8f9219a290b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\01. Follower Elephant">
+      <UniqueIdentifier>{38b262b5-ff8f-476b-9243-75f068d67be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\02. Follower Pig">
+      <UniqueIdentifier>{cde8de59-1ca8-4cbf-be17-003063709891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\01. Idle">
+      <UniqueIdentifier>{b00b2642-a5d8-4e28-b342-554240077ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\02. Run">
+      <UniqueIdentifier>{bfb0f602-176e-4aee-a97e-508018cc9b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\10. Spawn">
+      <UniqueIdentifier>{88c83b1d-06f9-4a18-bcfb-08d1f320233c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\00. NPC State Base">
+      <UniqueIdentifier>{27127c23-7a37-405d-a8de-2e5ef6253777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\04. Build">
+      <UniqueIdentifier>{f045f0f3-22cc-4ebc-935d-7db5a4bb03d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\05. ChopWood">
+      <UniqueIdentifier>{d23dab80-da3a-4721-8119-728291b0ed38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\06. Mining">
+      <UniqueIdentifier>{4c22beab-0885-4b21-abdd-ddbc927d38f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\07. Eat">
+      <UniqueIdentifier>{862ef88c-3e06-4c39-baf5-9298edda6495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\08. Pray">
+      <UniqueIdentifier>{476ec202-19b4-4ed7-a2dd-0ff1cff09a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\09. Pray Peek">
+      <UniqueIdentifier>{b1a80397-4f55-4fa0-8f1e-8d535230b1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\03. WalkPast">
+      <UniqueIdentifier>{8376f908-6595-4c5a-a93f-f9268c6b2f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\09. MapObject\03. Fog">
+      <UniqueIdentifier>{2f846c5f-7436-4050-b8a3-cfae036bed3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\12. UILoading">
+      <UniqueIdentifier>{ef7e3084-5c3c-4182-94f6-f1de1ae79c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\97. Tarot NPC">
+      <UniqueIdentifier>{bb97d628-8790-4bf6-be84-4f7a0753ccc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\03. UIWeapon&amp;Skill">
+      <UniqueIdentifier>{aebde5dc-3c0e-447e-85ea-05deb7023a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\12. UI_FollowerCommand">
+      <UniqueIdentifier>{97a31b16-2edb-43dc-a742-c1e3e0c52d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\11. NPC\99. Class for FSM\01. State\11. Rescued">
+      <UniqueIdentifier>{89d3ba52-ea7d-4479-8975-f5a363c7f7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="91. RunLootLog">
+      <UniqueIdentifier>{9f4546c0-9cd4-470c-bfe4-7f9d5f1a3a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\13. UI_DungeonLootPanel">
+      <UniqueIdentifier>{efba4223-937b-4295-bccd-d3e92a26a09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\14. UI_ProgressBar">
+      <UniqueIdentifier>{500a6299-4aa2-4e0c-8e0d-6551a299aa09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\03.MiniBoss">
+      <UniqueIdentifier>{b8e27f44-5ee8-4e47-aa08-3d9d38c59df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Boss\03.MiniBoss\00.State">
+      <UniqueIdentifier>{976fd86d-08ad-4220-bb29-ae776502cc0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\15. UIText">
+      <UniqueIdentifier>{2749aa75-f322-4adb-8247-0108c2a2a75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\01. UI\16. UIInteractive">
+      <UniqueIdentifier>{09a203e9-0c7d-4e4c-98f8-6ab7ca0bb20a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLogo.h">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayer.h">
+      <Filter>03. GameObject\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMonster.h">
+      <Filter>03. GameObject\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CStage.h">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMainCamera.h">
+      <Filter>03. GameObject\00. Camera\00. Main Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLoading.h">
+      <Filter>02. Scene\00. Logo\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMainBG.h">
+      <Filter>03. GameObject\03. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIPlayerPanel.h">
+      <Filter>05. UI\00. Panel\00. UIPlayerPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIHeartBar.h">
+      <Filter>05. UI\01. UI\00. UIHeartBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CItemDB.h">
+      <Filter>04. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemData.h">
+      <Filter>04. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemInstance.h">
+      <Filter>04. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDroppedItem.h">
+      <Filter>03. GameObject\03. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDropSystem.h">
+      <Filter>04. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEdit.h">
+      <Filter>99. ImGui_Editor\02. EditorMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTerrain.h">
+      <Filter>99. ImGui_Editor\02. EditorMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTestMonster.h">
+      <Filter>03. GameObject\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CHumanMonster.h">
+      <Filter>03. GameObject\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIMp.h">
+      <Filter>05. UI\01. UI\02. UIMp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUICircle.h">
+      <Filter>05. UI\01. UI\01. UICircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIWeapon.h">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMainMenu.h">
+      <Filter>02. Scene\03. MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSceneMgr.h">
+      <Filter>01. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMainEditorMgr.h">
+      <Filter>99. ImGui_Editor\00. MainEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CComInspectors.h">
+      <Filter>99. ImGui_Editor\01. EditorScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CInventory.h">
+      <Filter>97. Component\00. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWeaponEquip.h">
+      <Filter>97. Component\01. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTerrainRenderer.h">
+      <Filter>97. Component\02. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIButton.h">
+      <Filter>05. UI\01. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIIcon.h">
+      <Filter>05. UI\01. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapEditorPlacer.h">
+      <Filter>99. ImGui_Editor\01. EditorScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossPhase1.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossStateMachine.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMonsterState.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossAwake.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossBulletAttack.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossChainAttack.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossDead.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossIdle.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossMove.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossGroggy.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIInventory.h">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIInventoryCell.h">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CStateMachine.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBaseState.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CResourceMgr.h">
+      <Filter>01. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObjectMgr.h">
+      <Filter>99. ImGui_Editor\01. EditorScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObject_Helper.h">
+      <Filter>98. Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMenuChar.h">
+      <Filter>05. UI\01. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUITabMenu.h">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIPlayerPage.h">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayerController.h">
+      <Filter>97. Component\03. Player Control\00. Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayerInput.h">
+      <Filter>97. Component\03. Player Control\01. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayerMovement.h">
+      <Filter>97. Component\03. Player Control\02. Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayerAttack.h">
+      <Filter>97. Component\03. Player Control\03. Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIPlayerImage.h">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWallRenderer.h">
+      <Filter>97. Component\04. Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CStage_Boss1.h">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTarotStageController.h">
+      <Filter>05. UI\01. UI\05. UITarot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUITarotCard.h">
+      <Filter>05. UI\01. UI\05. UITarot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUITarotDescCard.h">
+      <Filter>05. UI\01. UI\05. UITarot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CStage_TarotTest.h">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRandomMgr.h">
+      <Filter>01. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CStage_Boss2.h">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIItemGet.h">
+      <Filter>05. UI\01. UI\06. UIItemGet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCharacterBase.h">
+      <Filter>96. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMonsterBase.h">
+      <Filter>96. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCBase.h">
+      <Filter>96. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Enum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossBullet.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossChain.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWarningChain.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CProjectile.h">
+      <Filter>97. Component\05. Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLogo_Boss.h">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIItemGetManager.h">
+      <Filter>05. UI\01. UI\06. UIItemGet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCameraController.h">
+      <Filter>97. Component\06. Camera Control\00. Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCameraMovement.h">
+      <Filter>97. Component\06. Camera Control\01. Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCamSetupBuilder.h">
+      <Filter>98. Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLogo_Boss2.h">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss_SlaveCow.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\02. Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Client_Struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossPhase2.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_ChainAttack.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_Start.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_Exit.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_StateMachine.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_StateMachine.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMonsterController.h">
+      <Filter>03. GameObject\06. Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeballController.h">
+      <Filter>03. GameObject\06. Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossController.h">
+      <Filter>03. GameObject\06. Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_StartExit.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_Start.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_StartGround.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_Enter.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_Die.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_Idle.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_Attack.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTrailEff.h">
+      <Filter>97. Component\07. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEffectBaseCom.h">
+      <Filter>97. Component\07. Effect\00.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSpriteEff.h">
+      <Filter>97. Component\07. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEffectBaseCom.h">
+      <Filter>97. Component\07. Effect\00.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSpriteEff.h">
+      <Filter>97. Component\07. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFireball.h">
+    </ClInclude>
+    <ClInclude Include="..\Header\CStage_Dungeon.h">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_Idle.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_Ground_Move.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_Bullet.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\04. AttackObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_Chain.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\04. AttackObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_Die.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_MonsterHp.h">
+      <Filter>05. UI\01. UI\07. UI_MonsterHp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBuildingBase.h">
+      <Filter>96. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CConstructionMgr.h">
+      <Filter>94. Construction\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CConstructionPlacer.h">
+      <Filter>94. Construction\01. Placer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFireball.h">
+      <Filter>03. GameObject\10. Fireball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUICharging.h">
+      <Filter>05. UI\01. UI\08. UICharging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIWeaponExplain.h">
+      <Filter>05. UI\01. UI\09. UIWeaponExplain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFloaterMonster.h">
+      <Filter>03. GameObject\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_BossHp.h">
+      <Filter>05. UI\01. UI\07. UI_MonsterHp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIBuildMenu.h">
+      <Filter>05. UI\01. UI\10. UIBuildMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUIBuildCell.h">
+      <Filter>05. UI\01. UI\10. UIBuildMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTemple.h">
+      <Filter>03. GameObject\08. Building\02. Temple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CConstructCircle.h">
+      <Filter>03. GameObject\08. Building\01. Construct Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWorkBench.h">
+      <Filter>03. GameObject\08. Building\00. Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CKitchen.h">
+      <Filter>03. GameObject\08. Building\03. Kitchen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRecipeDB.h">
+      <Filter>06. Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RecipeData.h">
+      <Filter>06. Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayerConstruction.h">
+      <Filter>97. Component\08. Construction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_Dialogue.h">
+      <Filter>07. Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTrigger_Dungeon.h">
+      <Filter>03. GameObject\07. Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDialogueDB.h">
+      <Filter>07. Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossTalk.h">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCookingController.h">
+      <Filter>92. Cooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CHarvestableHerb.h">
+      <Filter>93. Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayerGathering.h">
+      <Filter>93. Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUICookingGame.h">
+      <Filter>05. UI\01. UI\11. UICooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayerSkill.h">
+      <Filter>03. GameObject\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWorldInteractive.h">
+      <Filter>93. Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="IHitFlashEff.h">
+      <Filter>98. Utility\01. Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_Fade.h">
+      <Filter>05. UI\01. UI\99. Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObject_Deco.h">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObject_DungeonDeco.h">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObject_ETC.h">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObject_Grass.h">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObject_Rubble.h">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMapObjectBase.h">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CObjectSpawner.h">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CWall.h">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRock.h">
+      <Filter>03. GameObject\09. MapObject\02. Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTree.h">
+      <Filter>03. GameObject\09. MapObject\02. Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUICookingMenu.h">
+      <Filter>05. UI\01. UI\11. UICooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUICookingCell.h">
+      <Filter>05. UI\01. UI\11. UICooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CInteractionChecker.h">
+      <Filter>03. GameObject\11. NPC\98. Components\00. Interaction Checker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCController.h">
+      <Filter>03. GameObject\11. NPC\98. Components\01. Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCStateMachine.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\00. State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_Idle.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\01. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_Run.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\02. Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_Spawn.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\10. Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFollowerCow.h">
+      <Filter>03. GameObject\11. NPC\00. Follower Cow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\00. NPC State Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_WalkPast.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\03. WalkPast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_Build.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\04. Build</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CVillageStateMgr.h">
+      <Filter>01. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_ChopWood.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\05. ChopWood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_Eat.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\07. Eat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_Mining.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\06. Mining</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_Pray.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\08. Pray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_PrayPeek.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\09. Pray Peek</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFog.h">
+      <Filter>03. GameObject\09. MapObject\03. Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFogMgr.h">
+      <Filter>03. GameObject\09. MapObject\03. Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CChest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_Skill.h">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_SkillPanel.h">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_FollowerCommand.h">
+      <Filter>05. UI\01. UI\12. UI_FollowerCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUICookedFoodCell.h">
+      <Filter>05. UI\01. UI\11. UICooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTarotNPC.h">
+      <Filter>03. GameObject\11. NPC\97. Tarot NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRunLootLog.h">
+      <Filter>91. RunLootLog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_DungeonLootPanel.h">
+      <Filter>05. UI\01. UI\13. UI_DungeonLootPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_BulletAttack1.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_BulletAttack2.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_Groggy.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEyeball_CenterAttack.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMenuExtra.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTarotNPC.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_Skill.h">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_SkillPanel.h">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_FollowerCommand.h">
+      <Filter>05. UI\01. UI\12. UI_FollowerCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CNPCState_Rescued.h">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\11. Rescued</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Client_Global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_StateMachine.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_Attack_Bullet.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_Attack_Fly.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_Attack_Melee.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_Dead.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_Idle.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_Move.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_Reveal.h">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CEligos_Flies.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_Follower.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss2_SummonFollower.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_LoadingCircle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss_SlaveElephant.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\02. Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBoss_SlavePig.h">
+      <Filter>03. GameObject\04. Boss\02. Boss2\02. Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_ProgressBar.h">
+      <Filter>05. UI\01. UI\14. UI_ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_Text.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CUI_Interactive.h">
+      <Filter>헤더 파일</Filter>
+          </ClInclude>
+    <ClInclude Include="..\Header\CLogo_Dungeon.h">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFollowerElephant.h">
+      <Filter>03. GameObject\11. NPC\01. Follower Elephant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CFollowerPig.h">
+      <Filter>03. GameObject\11. NPC\02. Follower Pig</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLogo.cpp">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayer.cpp">
+      <Filter>03. GameObject\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMonster.cpp">
+      <Filter>03. GameObject\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CStage.cpp">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMainCamera.cpp">
+      <Filter>03. GameObject\00. Camera\00. Main Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLoading.cpp">
+      <Filter>02. Scene\00. Logo\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMainBG.cpp">
+      <Filter>03. GameObject\03. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIPlayerPanel.cpp">
+      <Filter>05. UI\00. Panel\00. UIPlayerPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIHeartBar.cpp">
+      <Filter>05. UI\01. UI\00. UIHeartBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CItemDB.cpp">
+      <Filter>04. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDroppedItem.cpp">
+      <Filter>03. GameObject\03. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDropSystem.cpp">
+      <Filter>04. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEdit.cpp">
+      <Filter>99. ImGui_Editor\02. EditorMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTerrain.cpp">
+      <Filter>99. ImGui_Editor\02. EditorMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTestMonster.cpp">
+      <Filter>03. GameObject\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CHumanMonster.cpp">
+      <Filter>03. GameObject\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIMp.cpp">
+      <Filter>05. UI\01. UI\02. UIMp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUICircle.cpp">
+      <Filter>05. UI\01. UI\01. UICircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIWeapon.cpp">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMainMenu.cpp">
+      <Filter>02. Scene\03. MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSceneMgr.cpp">
+      <Filter>01. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMainEditorMgr.cpp">
+      <Filter>99. ImGui_Editor\00. MainEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CInventory.cpp">
+      <Filter>97. Component\00. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWeaponEquip.cpp">
+      <Filter>97. Component\01. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTerrainRenderer.cpp">
+      <Filter>97. Component\02. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIIcon.cpp">
+      <Filter>05. UI\01. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIButton.cpp">
+      <Filter>05. UI\01. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapEditorPlacer.cpp">
+      <Filter>99. ImGui_Editor\01. EditorScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossPhase1.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossStateMachine.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMonsterState.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossAwake.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossBulletAttack.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossChainAttack.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossDead.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossIdle.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossMove.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossGroggy.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIInventory.cpp">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIInventoryCell.cpp">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CStateMachine.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBaseState.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CResourceMgr.cpp">
+      <Filter>01. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObjectMgr.cpp">
+      <Filter>99. ImGui_Editor\01. EditorScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMenuChar.cpp">
+      <Filter>05. UI\01. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUITabMenu.cpp">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIPlayerPage.cpp">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayerController.cpp">
+      <Filter>97. Component\03. Player Control\00. Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayerInput.cpp">
+      <Filter>97. Component\03. Player Control\01. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayerMovement.cpp">
+      <Filter>97. Component\03. Player Control\02. Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayerAttack.cpp">
+      <Filter>97. Component\03. Player Control\03. Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIPlayerImage.cpp">
+      <Filter>05. UI\01. UI\04. UITabMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWallRenderer.cpp">
+      <Filter>97. Component\04. Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CStage_Boss1.cpp">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTarotStageController.cpp">
+      <Filter>05. UI\01. UI\05. UITarot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUITarotCard.cpp">
+      <Filter>05. UI\01. UI\05. UITarot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUITarotDescCard.cpp">
+      <Filter>05. UI\01. UI\05. UITarot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CStage_TarotTest.cpp">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRandomMgr.cpp">
+      <Filter>01. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CStage_Boss2.cpp">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIItemGet.cpp">
+      <Filter>05. UI\01. UI\06. UIItemGet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCharacterBase.cpp">
+      <Filter>96. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMonsterBase.cpp">
+      <Filter>96. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCBase.cpp">
+      <Filter>96. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWarningChain.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossChain.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossBullet.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CProjectile.cpp">
+      <Filter>97. Component\05. Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLogo_Boss.cpp">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIItemGetManager.cpp">
+      <Filter>05. UI\01. UI\06. UIItemGet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCameraController.cpp">
+      <Filter>97. Component\06. Camera Control\00. Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCameraMovement.cpp">
+      <Filter>97. Component\06. Camera Control\01. Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLogo_Boss2.cpp">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss_SlaveCow.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\02. Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossPhase2.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_ChainAttack.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_Start.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_StateMachine.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_StateMachine.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMonsterController.cpp">
+      <Filter>03. GameObject\06. Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeballController.cpp">
+      <Filter>03. GameObject\06. Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossController.cpp">
+      <Filter>03. GameObject\06. Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_Start.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_StartExit.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_StartGround.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_Enter.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_Exit.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_Die.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_Idle.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_Attack.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTrailEff.cpp">
+      <Filter>97. Component\07. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEffectBaseCom.cpp">
+      <Filter>97. Component\07. Effect\00.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSpriteEff.cpp">
+      <Filter>97. Component\07. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEffectBaseCom.cpp">
+      <Filter>97. Component\07. Effect\00.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSpriteEff.cpp">
+      <Filter>97. Component\07. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CStage_Dungeon.cpp">
+      <Filter>02. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_Idle.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_Ground_Move.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_Chain.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\04. AttackObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_Bullet.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\04. AttackObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_Die.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_MonsterHp.cpp">
+      <Filter>05. UI\01. UI\07. UI_MonsterHp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBuildingBase.cpp">
+      <Filter>96. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CConstructionMgr.cpp">
+      <Filter>94. Construction\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFireball.cpp">
+      <Filter>03. GameObject\10. Fireball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUICharging.cpp">
+      <Filter>05. UI\01. UI\08. UICharging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIWeaponExplain.cpp">
+      <Filter>05. UI\01. UI\09. UIWeaponExplain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFloaterMonster.cpp">
+      <Filter>03. GameObject\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CConstructionPlacer.cpp">
+      <Filter>94. Construction\01. Placer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_BossHp.cpp">
+      <Filter>05. UI\01. UI\07. UI_MonsterHp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIBuildMenu.cpp">
+      <Filter>05. UI\01. UI\10. UIBuildMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUIBuildCell.cpp">
+      <Filter>05. UI\01. UI\10. UIBuildMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTemple.cpp">
+      <Filter>03. GameObject\08. Building\02. Temple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CConstructCircle.cpp">
+      <Filter>03. GameObject\08. Building\01. Construct Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWorkBench.cpp">
+      <Filter>03. GameObject\08. Building\00. Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CKitchen.cpp">
+      <Filter>03. GameObject\08. Building\03. Kitchen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRecipeDB.cpp">
+      <Filter>06. Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayerConstruction.cpp">
+      <Filter>97. Component\08. Construction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_Dialogue.cpp">
+      <Filter>07. Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTrigger_Dungeon.cpp">
+      <Filter>03. GameObject\07. Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDialogueDB.cpp">
+      <Filter>07. Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossTalk.cpp">
+      <Filter>03. GameObject\04. Boss\01. Boss1\01.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCookingController.cpp">
+      <Filter>92. Cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CHarvestableHerb.cpp">
+      <Filter>93. Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayerGathering.cpp">
+      <Filter>93. Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUICookingGame.cpp">
+      <Filter>05. UI\01. UI\11. UICooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayerSkill.cpp">
+      <Filter>03. GameObject\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWorldInteractive.cpp">
+      <Filter>93. Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_Fade.cpp">
+      <Filter>05. UI\01. UI\99. Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObject_Deco.cpp">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObject_DungeonDeco.cpp">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObject_ETC.cpp">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObject_Grass.cpp">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObject_Rubble.cpp">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMapObjectBase.cpp">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObjectSpawner.cpp">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CWall.cpp">
+      <Filter>03. GameObject\09. MapObject\01. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRock.cpp">
+      <Filter>03. GameObject\09. MapObject\02. Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTree.cpp">
+      <Filter>03. GameObject\09. MapObject\02. Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUICookingMenu.cpp">
+      <Filter>05. UI\01. UI\11. UICooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUICookingCell.cpp">
+      <Filter>05. UI\01. UI\11. UICooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CInteractionChecker.cpp">
+      <Filter>03. GameObject\11. NPC\98. Components\00. Interaction Checker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCController.cpp">
+      <Filter>03. GameObject\11. NPC\98. Components\01. Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCStateMachine.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\00. State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_Idle.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\01. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_Run.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\02. Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_Spawn.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\10. Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFollowerCow.cpp">
+      <Filter>03. GameObject\11. NPC\00. Follower Cow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\00. NPC State Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_WalkPast.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\03. WalkPast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_Build.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\04. Build</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CVillageStateMgr.cpp">
+      <Filter>01. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_ChopWood.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\05. ChopWood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_Eat.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\07. Eat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_Mining.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\06. Mining</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_Pray.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\08. Pray</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_PrayPeek.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\09. Pray Peek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFog.cpp">
+      <Filter>03. GameObject\09. MapObject\03. Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFogMgr.cpp">
+      <Filter>03. GameObject\09. MapObject\03. Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CChest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_Skill.cpp">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_SkillPanel.cpp">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_FollowerCommand.cpp">
+      <Filter>05. UI\01. UI\12. UI_FollowerCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUICookedFoodCell.cpp">
+      <Filter>05. UI\01. UI\11. UICooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTarotNPC.cpp">
+      <Filter>03. GameObject\11. NPC\97. Tarot NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRunLootLog.cpp">
+      <Filter>91. RunLootLog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_DungeonLootPanel.cpp">
+      <Filter>05. UI\01. UI\13. UI_DungeonLootPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_BulletAttack1.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_BulletAttack2.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_Groggy.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEyeball_CenterAttack.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\01. Eyeball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMenuExtra.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTarotNPC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_Skill.cpp">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_SkillPanel.cpp">
+      <Filter>05. UI\01. UI\03. UIWeapon&amp;Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_FollowerCommand.cpp">
+      <Filter>05. UI\01. UI\12. UI_FollowerCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CNPCState_Rescued.cpp">
+      <Filter>03. GameObject\11. NPC\99. Class for FSM\01. State\11. Rescued</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_StateMachine.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_Attack_Bullet.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_Attack_Melee.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_Dead.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_Idle.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_Move.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_Reveal.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_Attack_Fly.cpp">
+      <Filter>03. GameObject\04. Boss\03.MiniBoss\00.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CEligos_Flies.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_Follower.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss2_SummonFollower.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\03. State\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_LoadingCircle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss_SlaveElephant.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\02. Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBoss_SlavePig.cpp">
+      <Filter>03. GameObject\04. Boss\02. Boss2\02. Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_ProgressBar.cpp">
+      <Filter>05. UI\01. UI\14. UI_ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_Text.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CUI_Interactive.cpp">
+      <Filter>소스 파일</Filter>
+          </ClCompile>
+    <ClCompile Include="..\Code\CLogo_Dungeon.cpp">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFollowerElephant.cpp">
+      <Filter>03. GameObject\11. NPC\01. Follower Elephant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CFollowerPig.cpp">
+      <Filter>03. GameObject\11. NPC\02. Follower Pig</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dialogue.json">
+      <Filter>07. Dialogue</Filter>
+    </None>
+  </ItemGroup>
+</Project>

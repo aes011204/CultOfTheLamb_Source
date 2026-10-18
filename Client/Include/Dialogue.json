@@ -1,0 +1,160 @@
+{
+  "dialogues": [
+    {
+      "dialogueId": "Boss_Start",
+      "speaker": "기다리는 자",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "기다리는 자",
+          "text": "드디어... 내가 자유로워진다!",
+          "hasChoices": false
+        },
+        {
+          "lineIndex": 1,
+          "speaker": "기다리는 자",
+          "text": "다가오라, 그릇이여, 그리고 네 삶을 내 발에 바쳐라.",
+          "hasChoices": false
+        }
+      ]
+    },
+    {
+      "dialogueId": "Boss_Sacrifice",
+      "speaker": "",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "",
+          "text": "제물로 바쳐지기 위해 무릎 꿇기",
+          "hasChoices": true,
+          "choice": {
+            "leftText": "거절한다",
+            "rightText": "수락",
+            "leftNextId": "",
+            "rightNextId": ""
+          }
+        }
+      ]
+    },
+    {
+      "dialogueId": "Boss_Reject",
+      "speaker": "기다리는 자",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "기다리는 자",
+          "text": "그렇게 날 배신하는구나, 어린 양이여, 나의 명을 거부하고는, 스스로 거짓된 우상이 되는구나.",
+          "hasChoices": false
+        },
+        {
+          "lineIndex": 1,
+          "speaker": "기다리는 자",
+          "text": "그 왕관은 본디 나의 것! 네가 감히 죽음과 맞서려 하는가?",
+          "hasChoices": false
+        },
+        {
+          "lineIndex": 2,
+          "speaker": "기다리는 자",
+          "text": "내 너를 죽이고 난 후에도, 너의 고통은 끝나지 않을 것이다. 죽음 후에도 넌 날 벗어날 수 없다.",
+          "hasChoices": false
+        }
+      ]
+    },
+    {
+      "dialogueId": "Boss1_Dead",
+      "speaker": "기다리는 자",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "기다리는 자",
+          "text": "내가 쓰러졌다고 생각했느냐? 그게 나라는 존재의 모든 것이라고 생각했느냐?",
+          "hasChoices": false
+        },
+        {
+          "lineIndex": 1,
+          "speaker": "기다리는 자",
+          "text": "스스로 신을 넘어설 수 있다고 생각했느냐?",
+          "hasChoices": false
+        }
+      ]
+    },
+    {
+      "dialogueId": "Boss2_Start",
+      "speaker": "기다리는 자",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "기다리는 자",
+          "text": "나는 타락이요, 거짓된 우상이다. 네 타락이 의심할 것 없이 크구나.",
+          "hasChoices": false
+        }
+      ]
+    },
+    {
+      "dialogueId": "Boss2_Dead",
+      "speaker": "기다리는 자",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "기다리는 자",
+          "text": "네가 나를 대체하는구나. 넌 더이상 그릇이 아니야. 신격을 품은 왕관이로구나. 저주받을 양이야!",
+          "hasChoices": false
+        },
+        {
+          "lineIndex": 1,
+          "speaker": "기다리는 자",
+          "text": "난 이제 네 자비 아래에 놓인다. 넌 복수를 외치는 거짓된 우상이 되려는가, 이제 네 사악한 행동으로 나를 비난할 순 없으리라.",
+          "hasChoices": false
+        },
+        {
+          "lineIndex": 2,
+          "speaker": "어떻게 하시겠습니까?",
+          "text": "",
+          "hasChoices": true,
+          "choice": {
+            "leftText": "살해",
+            "rightText": "살해",
+            "leftNextId": "Boss2_Ending",
+            "rightNextId": "Boss2_Ending"
+          }
+        }
+      ]
+    },
+    {
+      "dialogueId": "Boss2_Ending",
+      "speaker": "",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "문인수",
+          "text": "SR 끝났다 수고요",
+          "hasChoices": false
+        }
+      ]
+    },
+    {
+      "dialogueId": "Tarot_Start",
+      "speaker": "클라우넥",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "클라우넥",
+          "text": "우리는 모두 확률의 노예일 뿐일까요?",
+          "hasChoices": false
+        }
+      ]
+    },
+    {
+      "dialogueId": "Tarot_End",
+      "speaker": "클라우넥",
+      "lines": [
+        {
+          "lineIndex": 0,
+          "speaker": "클라우넥",
+          "text": "이미 나온 결과를 번복할 수는 없습니다. 자연의 법칙을 거스를 수는 없는 법.",
+          "hasChoices": false
+        }
+      ]
+    }
+  ]
+}

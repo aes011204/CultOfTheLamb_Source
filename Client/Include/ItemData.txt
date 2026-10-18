@@ -1,0 +1,234 @@
+{
+  "items": [
+    {
+      "id": 1001,
+      "type": "Material",
+      "name": "동전",
+      "desc": "모든 종류의 일에 사용되는 화폐.",
+      "UIFileName": "Coin",
+      "UIPath": "../Bin/Resource/ItemUI/Coin.png",
+
+      "additionalDesc": "금에 대한 욕망은 종종 사람의 마음을 완전히 사로잡는다.",
+
+      "quality":1, 
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+
+    },
+
+    {
+      "id": 1002,
+      "type": "FoodMaterial",
+      "name": "라즈베리",
+      "desc": "자연의 풍요로움에서 솟아난 단순하고 육즙이 풍부한 열매.",
+      "UIFileName": "Berries",
+      "UIPath": "../Bin/Resource/ItemUI/Berries.png",
+
+      "additionalDesc": "요리에 맛있는 재료입니다 .",
+
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+
+
+    },
+    {
+      "id": 1003,
+      "type": "FoodMaterial",
+      "name": "잔디",
+      "desc": "신사나 성막 에서 연료로 사용되는 단순한 재료 .",
+      "UIFileName": "Grass",
+      "UIPath": "../Bin/Resource/ItemUI/Grass.png",
+
+      "additionalDesc": "두껍고 매듭이 있으며, 거칠고 거칠다.",
+
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+
+    },
+    {
+      "id": 1004,
+      "type": "FoodMaterial",
+      "name": "똥",
+      "desc": "영양분이 풍부하여 농장에 유용합니다.",
+      "UIFileName": "Poop",
+      "UIPath": "../Bin/Resource/ItemUI/Poop.png",
+
+      "additionalDesc": "냄새는 별로 좋지 않아요...아직 따뜻해요.",
+
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+
+    },
+
+    {
+      "id": 1005,
+      "type": "Material",
+      "name": "나무",
+      "desc": "건축물을 짓는 데 사용되는 간단한 재료 .",
+      "UIFileName": "Wood",
+      "UIPath": "../Bin/Resource/ItemUI/Wood.png",
+
+      "additionalDesc": "이 통나무의 혈관을 따라 부드러운 푸른 빛이 맥박처럼 흐릅니다.",
+
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+
+    },
+
+    {
+      "id": 1006,
+      "type": "Material",
+      "name": "돌",
+      "desc": "유용한 건축 자재.",
+      "UIFileName": "Stone",
+      "UIPath": "../Bin/Resource/ItemUI/Stone.png",
+
+      "additionalDesc": "지구 그 자체의 고대 파편입니다.",
+
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+
+    },
+
+    {
+      "id": 1007,
+      "type": "FoodMaterial",
+      "name": "무지개 똥",
+      "desc": "이것으로 재배한 작물은 즉시 자랄 것입니다.",
+      "UIFileName": "Poop_Rainbow",
+      "UIPath": "../Bin/Resource/ItemUI/Poop_Rainbow.png",
+
+      "additionalDesc": "이 생물은 무엇을 먹었을까...?",
+
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+
+    },
+
+    {
+      "id": 1008,
+      "type": "FoodMaterial",
+      "name": "베리 부시 씨앗",
+      "desc": "농장에 심으세요 .",
+      "UIFileName": "FarmCrop_Berries_2",
+      "UIPath": "../Bin/Resource/ItemUI/FarmCrop_Berries_2.png",
+
+      "additionalDesc": "무언가의 시작.",
+
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+
+    },
+    {
+      "id": 2001,
+      "type": "Food",
+      "name": "풀죽",
+      "desc": "질병을 일으킬 확률 25%",
+      "UIFileName": "Meal_Grass",
+      "UIPath": "../Bin/Resource/ItemUI/Meal_Grass.png",
+
+      "additionalDesc": "아무것도 없는 것보다는 낫죠.",
+
+      "quality":1, 
+      "stackable": false,
+      "price": 5,
+      "stats": {
+        "hungry": 10
+      }
+    },
+   {
+      "id": 2002,
+      "type": "Food",
+      "name": "똥 그릇",
+      "desc": "질병과 설사를 일으킬 확률은 50%입니다.",
+      "UIFileName": "Meal_Poop",
+      "UIPath": "../Bin/Resource/ItemUI/Meal_Poop.png",
+
+      "additionalDesc": "배설물로 만든 식사...",
+
+      "quality":1, 
+      "stackable": false,
+      "price": 10,
+      "stats": {
+        "hungry": 5
+      }
+    },
+    {
+      "id": 2003,
+      "type": "Food",
+      "name": "기본 베리 볼",
+      "desc": "팔로워가 즉시 똥을 싸는 확률 15%",
+      "UIFileName": "Meal_Berries",
+      "UIPath": "../Bin/Resource/ItemUI/Meal_Berries.png",
+
+      "additionalDesc": "베리로 만든 간단한 식사.",
+
+      "quality":2, 
+      "stackable": false,
+      "price": 10,
+      "stats": {
+        "hungry": 20
+      }
+    },
+    {
+      "id": 3001,
+      "type": "Weapon",
+      "name": "크루세이더의 칼날",
+      "desc": "적당한 데미지를 입히는 균형 잡힌 칼날입니다.",
+       "UIFileName": "Icon_Weapon_Sword",
+      "UIPath": "../Bin/Resource/ItemUI/Icon_Weapon_Sword.png",
+
+      "additionalDesc": "방랑하는 전사의 든든한 동반자.",
+
+      "stackable": false,
+      "price":10,
+
+      "stats": 
+	{
+        "attack1": 1,
+	"attack2": 1,
+	"attack3": 1
+      	}
+    }
+,
+    {
+      "id": 3002,
+      "type": "Weapon",
+      "name": "신의 건틀릿",
+      "desc": "필멸자의 무기보다 훨씬 더 큰 피해를 입힙니다.",
+      "UIFileName": "Icon_Weapon_Gauntlet_Godly",
+      "UIPath": "../Bin/Resource/ItemUI/Icon_Weapon_Gauntlet_Godly.png",
+      "additionalDesc": "고대 신중 한 명의 무덤에서 훔쳐 왔습니다.",
+      "stackable": false,
+      "price": 10,
+
+      "stats": {
+        "attack1": 5
+      }
+}
+,
+    {
+      "id": 4001,
+      "type": "Comsumable",
+      "name": "하트",
+      "desc": "설명이 필요 있을까",
+      "UIFileName": "Red Heart Pick Up",
+      "UIPath": "../Bin/Resource/ItemUI/Red Heart Pick Up.png",
+      "additionalDesc": "뭐 먹으면 attack1 만큼 회복함",
+      "stackable": false,
+      "price": 10,
+
+      "stats": {
+        "attack1": 5
+      }
+    }
+  ]
+}

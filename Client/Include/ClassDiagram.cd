@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMapObjectBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LCAALAIACAAAAIAAAIAAAEAQAAAgAAAAAIQhAAAAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CMapObjectBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMapObject_Grass" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAIAAAAAAACIAAEAAAAAAAAAAAAEAAAAAgAAAAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CMapObject_Grass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainApp" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAkAAAAAAAAAAAAACACAAAgAEAACAAAIAACAAo=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CMainApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogo" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCACAAAAAAIAAgAAAAACAEAAAAAAAAACkMI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CLogo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLoading" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAAAAAgAMCAEgAAEAEECAAAAgFAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\header\CLoading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStage" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABABCACAAAAAAIAAAAAAAACAEAAECAAAAACEEI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CStage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEdit" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABCACAAAAAAIAAAAAAAACAEAAACAAAAACEEI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTerrain" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCACKgoAAQEAAIEAACIAAEUQAQAgBEAAAAwgCAAAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainEditorMgr" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAECAAAAEAAAAAAAAAAAAAAADQEAAAAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CMainEditorMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKACIAIgAAEEAKQCCAAAAEgEAIAgAFIAAAQgAAAQQAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHumanMonster" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEIBIAAAAFAKQCAAAAAEAEAAQgAFIAAAQgAAAQQAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CHumanMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonster" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAABAAKAAAABAAEAAAAAgAEAAAAAgAAIAQAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestMonster" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIBIRAAAEAKACAAAAAEAEAAAgAFIAAAQgAAAQQAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CTestMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDroppedItem" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIIIBEAAAAKAAAAAgAEAEAAAgBEAAAAQgAAAAQAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CDroppedItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainCamera" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAJgAAEAQIAAAAAAAAAAAAAgAEAAAAAgBAAAgAs=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\header\CMainCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainBG" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAQAAIAAAQAAAEAAAAAAAEAAAAQgAAAAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CMainBG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDropSystem" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAoAAAAAAAAAKAAAAAIAAAAAAAAEAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CDropSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CItemDB" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABAQAQAAAAAAACACDACQAAAAAEAAAAAAABAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CItemDB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInventory" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAAAQAAAAAAAAAAAAAgAAAAEIEAAAACUBAAB4=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CInventory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIPlayerPanel" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAAAAAAAIQAACAAAACAAAAAAEAAAAAgAAQAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CUIPlayerPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIHeartBar" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAABAAAKAAAIAEQEAAAABgAEAQCAQkQAAAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CUIHeartBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUICircle" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIAAAAAAAAAAACAAAEAAAAAgQACAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CUICircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIMp" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIQAACAAAAAAIAAAAEAAAACgQAAAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CUIMp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIWeapon" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIBAAAAAAAAAAAAAAEAAAAAgQAgAAAI=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CUIWeapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Item" Collapsed="true">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAAQAEAAAAAAAAAAgAAAgAAFAABAIAAAAAAAggA=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\ItemData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ItemInstance" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\ItemInstance.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="InventorySlot" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQABABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CInventory.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="MAPOBJTYPE" Collapsed="true">
+    <Position X="8.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CMapObjectBase.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EDIT_MODE" Collapsed="true">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CTerrain.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ItemType" Collapsed="true">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAgEAAAA=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\ItemData.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HEARTSTATE" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAACAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\GitDesktop\SR_Cult\Client\Header\CUIHeartBar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

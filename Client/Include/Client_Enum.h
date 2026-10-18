@@ -1,0 +1,42 @@
+﻿#pragma once
+
+enum class PROJ_TYPE
+{
+    LINEAR,
+    ORBIT,
+    HOMING,
+    TYPE_END
+};
+
+enum class BOSSPHASE1
+{
+    BOSSAWAKE = 0,
+    BULLETATTACK,
+    CHAINATTACK,
+    BOSSDEAD,
+    BOSSIDLE,
+    BOSSMOVE,
+    BOSSGROGGRY,
+    BOSS_END
+};
+
+enum FOODQUALITY
+{
+    GOOD,
+    BAD,
+    NO_FOOD
+};
+
+// 타이머용 enum
+enum TIMER
+{
+    TIMER_SOUND_PL_FOOTSTEP,
+    TIMER_SOUND_PL_COLLECTBERRY,
+    TIMER_SOUND_PL_CONSTRUCT,
+
+    TIMER_SOUND_FOL_WALKPAST,
+    TIMER_SOUND_FOL_CONSTRUCT,
+    TIMER_SOUND_FOL_RESCUE,
+
+    TIMER_END
+};

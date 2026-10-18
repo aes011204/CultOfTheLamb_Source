@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": 1001,
+      "type": "material",
+      "name": "Iron Ore",
+      "desc": "Ore used for forging weapons.",
+      "rarity": "common",
+      "stackable": true,
+      "maxStack": 99,
+      "price": 5
+    },
+
+    {
+      "id": 1002,
+      "type": "material",
+      "name": "Wood",
+      "desc": "Basic crafting wood.",
+      "rarity": "common",
+      "stackable": true,
+      "maxStack": 99,
+      "price": 2
+    },
+
+    {
+      "id": 2001,
+      "type": "weapon",
+      "name": "Iron Sword",
+      "desc": "Basic forged sword.",
+      "rarity": "uncommon",
+      "stackable": false,
+      "price": 150,
+
+      "stats": {
+        "attack": 15
+      }
+    }
+  ]
+}
